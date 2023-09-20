@@ -61,10 +61,17 @@
 // console.log(precio * 1.21)
 
 //Ejercicio 7
-numero = 1
+// numero = 1
+// lista = ""
+// do {
+//     lista += `${numero }`;
+//     numero++
+// }while(numero < 101);
+// console.log(lista)
+
+//Ejercicio 8
 lista = ""
-do {
-    lista += numero;
-    numero++
-}while(numero < 101);
+for(var i = 1; i < 101; i++){
+    lista += `${i} `;
+}
 console.log(lista)
