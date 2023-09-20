@@ -64,14 +64,23 @@
 // numero = 1
 // lista = ""
 // do {
-//     lista += `${numero }`;
+//     lista += `${numero} `;
 //     numero++
 // }while(numero < 101);
 // console.log(lista)
 
 //Ejercicio 8
+// lista = ""
+// for(var i = 1; i < 101; i++){
+//     lista += `${i} `;
+// }
+// console.log(lista)
+
+//Ejercicio 9 
 lista = ""
 for(var i = 1; i < 101; i++){
-    lista += `${i} `;
+    if(i % 2 === 0 && i % 3 === 0){
+        lista += `${i} `
+    }
 }
 console.log(lista)
