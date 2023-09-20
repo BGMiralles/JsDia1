@@ -8,20 +8,20 @@
 // let dia = prompt("Dime un dia de la semana")
 
 // switch(dia){
-//     case 'lunes':
-//     case 'martes':
-//     case 'miercoles':
-//     case 'jueves':
-//     case 'viernes':
-//         console.log("Entre semana")
-//     break;
-//     case 'sabado':
-//     case 'domingo':
-//         console.log("fin de  semana")
-//     break;
-//     default:
-//         console.log("Aprendete los dias de la semana")
-//     break;
+//      case 'lunes':
+//      case 'martes':
+//      case 'miercoles':
+//      case 'jueves':
+//      case 'viernes':
+//          console.log("Entre semana")
+//      break;
+//      case 'sabado':
+//      case 'domingo':
+//          console.log("fin de  semana")
+//      break;
+//      default:
+//          console.log("Aprendete los dias de la semana")
+//      break;
 // }
 
 //Ejercio 1
@@ -86,13 +86,33 @@
 // console.log(lista)
 
 //Ejercicio 10
-const vueltas = parseInt(prompt("numero de ventas"))
-let ventas = 0
-let sum = 0
-for(var i = 0; i < vueltas; i++){
-    ventas = parseFloat(prompt("Dame las ventas"))
-    if(!isNaN(ventas)){
-        sum += ventas;
-    }
+// const vueltas = parseInt(prompt("numero de ventas"))
+// let ventas = 0
+// let sum = 0
+// for(var i = 0; i < vueltas; i++){
+//     ventas = parseFloat(prompt("Dame las ventas"))
+//     if(!isNaN(ventas)){
+//         sum += ventas;
+//     }
+// }
+// console.log(sum)
+
+//Ejercicio 11
+let dia = prompt("Dime un dia de la semana")
+
+switch(dia){
+     case 'lunes':
+     case 'martes':
+     case 'miercoles':
+     case 'jueves':
+     case 'viernes':
+         console.log("Entre semana")
+     break;
+     case 'sabado':
+     case 'domingo':
+         console.log("fin de  semana")
+     break;
+     default:
+         console.log("Aprendete los dias de la semana")
+     break;
 }
-console.log(sum)
