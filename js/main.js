@@ -118,11 +118,36 @@
 // }
 
 // Ejercicio 12
-let pass = "facil"
-for(var i = 0; i < 3; i++){
-    usuario = prompt("Escribe el pass")
-    if(pass === usuario){
-        console.log("Enhorabuena")
-        break;
-    }
+// let pass = "facil"
+// for(var i = 0; i < 3; i++){
+//     usuario = prompt("Escribe el pass")
+//     if(pass === usuario){
+//         console.log("Enhorabuena")
+//         break;
+//     }
+// }
+
+//Ejercicio 13
+let num1 = parseFloat(prompt("Dame un numero"))
+let num2 = parseFloat(prompt("Dame otro numero"))
+let operacion = prompt("Que operacion queires hacer?")
+switch(operacion){
+    case "+":
+        console.log(num1 + num2)
+        break
+    case "-":
+        console.log(num1 - num2)
+        break
+    case "*":
+        console.log(num1 * num2)
+        break
+    case "/":
+        console.log(num1 / num2)
+        break
+    case "^":
+        console.log(num1 ** num2)
+        break
+    case "%":
+        console.log(num1 % num2)
+        break
 }
