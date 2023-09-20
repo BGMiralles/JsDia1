@@ -77,10 +77,22 @@
 // console.log(lista)
 
 //Ejercicio 9 
-lista = ""
-for(var i = 1; i < 101; i++){
-    if(i % 2 === 0 && i % 3 === 0){
-        lista += `${i} `
+// lista = ""
+// for(var i = 1; i < 101; i++){
+//     if(i % 2 === 0 && i % 3 === 0){
+//         lista += `${i} `
+//     }
+// }
+// console.log(lista)
+
+//Ejercicio 10
+const vueltas = parseInt(prompt("numero de ventas"))
+let ventas = 0
+let sum = 0
+for(var i = 0; i < vueltas; i++){
+    ventas = parseFloat(prompt("Dame las ventas"))
+    if(!isNaN(ventas)){
+        sum += ventas;
     }
 }
-console.log(lista)
+console.log(sum)
