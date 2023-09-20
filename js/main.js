@@ -37,5 +37,9 @@
 // };
 
 //Ejercicio 2
-nombre = "Borja"
+// nombre = "Borja"
+// console.log(`Bienvenido ${nombre}`)
+
+//Ejercicio 3
+nombre = prompt("Dime tu nombre")
 console.log(`Bienvenido ${nombre}`)
