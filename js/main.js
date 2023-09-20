@@ -98,21 +98,31 @@
 // console.log(sum)
 
 //Ejercicio 11
-let dia = prompt("Dime un dia de la semana")
+// let dia = prompt("Dime un dia de la semana")
 
-switch(dia){
-     case 'lunes':
-     case 'martes':
-     case 'miercoles':
-     case 'jueves':
-     case 'viernes':
-         console.log("Entre semana")
-     break;
-     case 'sabado':
-     case 'domingo':
-         console.log("fin de  semana")
-     break;
-     default:
-         console.log("Aprendete los dias de la semana")
-     break;
+// switch(dia){
+//      case 'lunes':
+//      case 'martes':
+//      case 'miercoles':
+//      case 'jueves':
+//      case 'viernes':
+//          console.log("Entre semana")
+//      break;
+//      case 'sabado':
+//      case 'domingo':
+//          console.log("fin de  semana")
+//      break;
+//      default:
+//          console.log("Aprendete los dias de la semana")
+//      break;
+// }
+
+// Ejercicio 12
+let pass = "facil"
+for(var i = 0; i < 3; i++){
+    usuario = prompt("Escribe el pass")
+    if(pass === usuario){
+        console.log("Enhorabuena")
+        break;
+    }
 }
