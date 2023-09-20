@@ -45,5 +45,13 @@
 // console.log(`Bienvenido ${nombre}`)
 
 //Ejercicio 4
-radio = prompt("Dime el radio del circulo")
-console.log(Math.PI * (radio**2))
+// radio = prompt("Dime el radio del circulo")
+// console.log(Math.PI * (radio**2))
+
+//Ejercicio 5
+numero = prompt("Dame un numero")
+if(numero % 2 === 0){
+    console.log(`${numero} es divisible por 2`)
+}else{
+    console.log(`${numero} no es divisible por 2`)
+}
