@@ -49,9 +49,13 @@
 // console.log(Math.PI * (radio**2))
 
 //Ejercicio 5
-numero = prompt("Dame un numero")
-if(numero % 2 === 0){
-    console.log(`${numero} es divisible por 2`)
-}else{
-    console.log(`${numero} no es divisible por 2`)
-}
+// numero = prompt("Dame un numero")
+// if(numero % 2 === 0){
+//     console.log(`${numero} es divisible por 2`)
+// }else{
+//     console.log(`${numero} no es divisible por 2`)
+// }
+
+//Ejercicio 6
+precio = prompt("Dame un precio")
+console.log(precio * 1.21)
