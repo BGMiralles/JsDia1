@@ -57,5 +57,14 @@
 // }
 
 //Ejercicio 6
-precio = prompt("Dame un precio")
-console.log(precio * 1.21)
+// precio = prompt("Dame un precio")
+// console.log(precio * 1.21)
+
+//Ejercicio 7
+numero = 1
+lista = ""
+do {
+    lista += numero;
+    numero++
+}while(numero < 101);
+console.log(lista)
