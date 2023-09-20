@@ -25,13 +25,17 @@
 // }
 
 //Ejercio 1
-num1 = 2
-num2 = 3
+// num1 = 2
+// num2 = 3
 
-if(num1 === num2){
-    console.log("Son iguales");
-} else if(num1 > num2){
-    console.log(`${num1} es mayor que ${num2}`);
-} else{
-    console.log(`${num1} es menor que ${num2}`);
-};
+// if(num1 === num2){
+//     console.log("Son iguales");
+// } else if(num1 > num2){
+//     console.log(`${num1} es mayor que ${num2}`);
+// } else{
+//     console.log(`${num1} es menor que ${num2}`);
+// };
+
+//Ejercicio 2
+nombre = "Borja"
+console.log(`Bienvenido ${nombre}`)
