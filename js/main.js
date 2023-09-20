@@ -41,5 +41,9 @@
 // console.log(`Bienvenido ${nombre}`)
 
 //Ejercicio 3
-nombre = prompt("Dime tu nombre")
-console.log(`Bienvenido ${nombre}`)
+// nombre = prompt("Dime tu nombre")
+// console.log(`Bienvenido ${nombre}`)
+
+//Ejercicio 4
+radio = prompt("Dime el radio del circulo")
+console.log(Math.PI * (radio**2))
